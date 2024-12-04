@@ -1,0 +1,25 @@
+# LHS 1478 b's Properties
+sName		    b		   # Body's name
+saModules   eqtide   # Modules to apply to this body
+
+# Physical Parameters
+# Mass and radius
+dMass		     -2.33  # Mass, negative -> Earth masses
+#sMassRad  sotin07
+dRadius      -1.24
+dRadGyra	   0.5	   # Radius of gyration (moment of inertia constant)
+#dRotPeriod      -1
+dObliquity   0      # Obliquity
+bForceEqSpin
+
+# Orbital Parameters, from
+dEcc          0.5     # Eccentricity
+dSemi         0.018  # Semi-major axis (negative for AU)
+
+# EQTIDE Parameters
+dTidalQ       10   # Tidal Q (assumed)
+dK2           0.3   # Love Number of degree 2
+saTidePerts   lhs1478   # Name of tidal perturber (only central body may have >1)
+dMaxLockDiff  0.01
+
+saOutputOrder Time -RotPer Obliq Semim ecce

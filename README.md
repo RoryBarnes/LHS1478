@@ -1,0 +1,1 @@
+VPLanet modeling of the tidal evolution of LHS 1478 b over a two month time frame.

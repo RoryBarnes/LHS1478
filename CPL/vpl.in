@@ -1,0 +1,22 @@
+sSystemName               lhs1478
+
+iVerbose                  0
+bOverwrite                1
+
+saBodyFiles               lhs1478.in $ # The star
+                          b.in 	    # planet d
+
+sUnitMass                 solar
+sUnitLength               AU
+sUnitTime                 d
+sUnitAngle                d
+
+bDoLog                    1
+iDigits                   16
+dMinValue                 1e-10
+
+bDoForward                1
+bVarDt                    1
+dEta                      0.01
+dStopTime                 60
+dOutputTime               1
